@@ -1,0 +1,136 @@
+{
+  "uid" : "1c77d0836c613dd6",
+  "name" : "test_login[验证码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246811-Invalid code.]",
+  "fullName" : "case.test_login.TestLogin#test_login",
+  "historyId" : "ad50fb203496319ccfab243021cb41b1",
+  "time" : {
+    "start" : 1613283722076,
+    "stop" : 1613283722147,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "拿到login数据，进行登录，然后把token文件写入token.md文件",
+      "time" : {
+        "start" : 1613283722076,
+        "stop" : 1613283722147,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case_name",
+        "value" : "'验证码错误'"
+      }, {
+        "name" : "url",
+        "value" : "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'"
+      }, {
+        "name" : "mobile",
+        "value" : "'13911111111'"
+      }, {
+        "name" : "code",
+        "value" : "'246811'"
+      }, {
+        "name" : "expect_result",
+        "value" : "'Invalid code.'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KIPRUA9R"
+  }, {
+    "name" : "thread",
+    "value" : "14656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_name",
+    "value" : "'验证码错误'"
+  }, {
+    "name" : "code",
+    "value" : "'246811'"
+  }, {
+    "name" : "expect_result",
+    "value" : "'Invalid code.'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13911111111'"
+  }, {
+    "name" : "url",
+    "value" : "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d982ba5455cb015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613283699379,
+        "stop" : 1613283699455,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "1b7f6a04070a53fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613283541992,
+        "stop" : 1613283542063,
+        "duration" : 71
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "1c77d0836c613dd6.json",
+  "parameterValues" : [ "'验证码错误'", "'246811'", "'Invalid code.'", "'13911111111'", "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'" ]
+}

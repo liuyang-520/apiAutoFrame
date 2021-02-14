@@ -1,0 +1,59 @@
+测试框架：
+
+api层（用于封装各个接口的api类）
+
+业务层（用于封装各个接口的测试用例类）
+
+数据层（用来定义各个接口的测试数据）
+
+log和report层 （存放日志和测试报告）
+
+common公共层（用来封装读写测试数据、文件路径和log的方法）
+
+项目主入口（run.py）
+
+
+
+
+
+接口文档：
+
+
+短信验证码接口：
+
+url=http://ttapi.research.itcast.cn/app/v1_0/sms/codes/mobile
+method=get
+
+
+登录接口：
+
+url=http://ttapi.research.itcast.cn/app/v1_0/authorizations
+method=post
+headers={"content_type":"application/json"}
+data = {"mobile":"19934491792", "code":"123"}
+
+
+用户渠道接口：
+
+url=http://api-toutiao-web.itheima.net/mp/v1_0/channels
+method = get
+headers={
+	"Content-Type": "application/json",
+	"Authorization": "Bearer {token}"
+}
+
+
+发布文章接口：
+
+url=http://api-toutiao-web.itheima.net/mp/v1_0/articles?draft=false
+method=post
+headers={
+	"Accept": "application/json",
+	"Authorization": "Bearer {token}"
+}
+
+data = {"channel_id": 2,
+		"title": "测试发布文章",
+		"content":"fdfdgfgfdgfdgsdfgfgsdfgfgfgsdfgfdgretyhtreyttryrtey",
+		"cover": {"type": 1, "images": ["http://toutiao-img.itheima.net/FticKrjDk7ohLtii3R40sxY_T964"]},
+}

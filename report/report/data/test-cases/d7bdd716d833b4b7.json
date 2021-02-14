@@ -1,0 +1,118 @@
+{
+  "uid" : "d7bdd716d833b4b7",
+  "name" : "test_login[手机号码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111113-246810-Please verify your real information in app.]",
+  "fullName" : "case.test_login.TestLogin#test_login",
+  "historyId" : "0e3800cfc421415c63a9bd148c4a1626",
+  "time" : {
+    "start" : 1613283699298,
+    "stop" : 1613283699373,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "拿到login数据，进行登录，然后把token文件写入token.md文件",
+      "time" : {
+        "start" : 1613283699298,
+        "stop" : 1613283699373,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case_name",
+        "value" : "'手机号码错误'"
+      }, {
+        "name" : "url",
+        "value" : "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'"
+      }, {
+        "name" : "mobile",
+        "value" : "'13911111113'"
+      }, {
+        "name" : "code",
+        "value" : "'246810'"
+      }, {
+        "name" : "expect_result",
+        "value" : "'Please verify your real information in app.'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KIPRUA9R"
+  }, {
+    "name" : "thread",
+    "value" : "5928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_name",
+    "value" : "'手机号码错误'"
+  }, {
+    "name" : "code",
+    "value" : "'246810'"
+  }, {
+    "name" : "expect_result",
+    "value" : "'Please verify your real information in app.'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13911111113'"
+  }, {
+    "name" : "url",
+    "value" : "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "d7bdd716d833b4b7.json",
+  "parameterValues" : [ "'手机号码错误'", "'246810'", "'Please verify your real information in app.'", "'13911111113'", "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'" ]
+}

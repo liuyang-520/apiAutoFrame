@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 14 14:22:01 CST 2021","Sun Feb 14 14:22:02 CST 2021","72","case","test_login","TestLogin","","","test_login[手机号码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111113-246810-Please verify your real information in app.]",""
+"passed","Sun Feb 14 14:22:01 CST 2021","Sun Feb 14 14:22:01 CST 2021","85","case","test_login","TestLogin","","","test_login[登录成功-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246810-OK]",""
+"passed","Sun Feb 14 14:22:02 CST 2021","Sun Feb 14 14:22:02 CST 2021","77","case","test_channels","TestChannels","","","test_channels[http://api-toutiao-web.itheima.net/mp/v1_0/channels-headers0-OK]",""
+"passed","Sun Feb 14 14:22:02 CST 2021","Sun Feb 14 14:22:02 CST 2021","71","case","test_login","TestLogin","","","test_login[验证码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246811-Invalid code.]",""

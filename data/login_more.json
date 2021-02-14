@@ -1,0 +1,23 @@
+{
+  "login_success":{
+    "case_name":"登录成功",
+    "url":"http://api-toutiao-web.itheima.net/mp/v1_0/authorizations",
+    "mobile":"13911111111",
+    "code":"246810",
+    "expect_result":"OK"
+  },
+  "login_mobile_error":{
+    "case_name":"手机号码错误",
+    "url":"http://api-toutiao-web.itheima.net/mp/v1_0/authorizations",
+    "mobile":"13911111113",
+    "code":"246810",
+    "expect_result":"Please verify your real information in app."
+  },
+  "login_code_error":{
+    "case_name":"验证码错误",
+    "url":"http://api-toutiao-web.itheima.net/mp/v1_0/authorizations",
+    "mobile":"13911111111",
+    "code":"246811",
+    "expect_result":"Invalid code."
+  }
+}

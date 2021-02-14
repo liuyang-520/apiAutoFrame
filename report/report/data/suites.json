@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login[登录成功-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246810-OK]",
+          "uid" : "5a35aa5ae15dbc80",
+          "parentUid" : "b6273d70d64e7ed060deb8bfe2517c9a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613283721903,
+            "stop" : 1613283721988,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'登录成功'", "'246810'", "'OK'", "'13911111111'", "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'" ]
+        }, {
+          "name" : "test_login[手机号码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111113-246810-Please verify your real information in app.]",
+          "uid" : "417027a5ba102fdc",
+          "parentUid" : "b6273d70d64e7ed060deb8bfe2517c9a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613283721994,
+            "stop" : 1613283722066,
+            "duration" : 72
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'手机号码错误'", "'246810'", "'Please verify your real information in app.'", "'13911111113'", "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'" ]
+        }, {
+          "name" : "test_login[验证码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246811-Invalid code.]",
+          "uid" : "1c77d0836c613dd6",
+          "parentUid" : "b6273d70d64e7ed060deb8bfe2517c9a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613283722076,
+            "stop" : 1613283722147,
+            "duration" : 71
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'验证码错误'", "'246811'", "'Invalid code.'", "'13911111111'", "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'" ]
+        } ],
+        "uid" : "b6273d70d64e7ed060deb8bfe2517c9a"
+      } ],
+      "uid" : "4d35a481a77822d65b097aa3a55b4f11"
+    }, {
+      "name" : "test_channels",
+      "children" : [ {
+        "name" : "TestChannels",
+        "children" : [ {
+          "name" : "test_channels[http://api-toutiao-web.itheima.net/mp/v1_0/channels-headers0-OK]",
+          "uid" : "314cc648fb9237b4",
+          "parentUid" : "99d1f69363ff719997333afb6e30b15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613283722153,
+            "stop" : 1613283722230,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'OK'", "{'Accept': 'application/json'}", "'http://api-toutiao-web.itheima.net/mp/v1_0/channels'" ]
+        } ],
+        "uid" : "99d1f69363ff719997333afb6e30b15f"
+      } ],
+      "uid" : "963869d8bb762069072011d4947965a5"
+    } ],
+    "uid" : "7559db31629684e5f31176d189a833ac"
+  } ]
+}

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "417027a5ba102fdc",
+  "name" : "test_login[手机号码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111113-246810-Please verify your real information in app.]",
+  "time" : {
+    "start" : 1613283721994,
+    "stop" : 1613283722066,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a35aa5ae15dbc80",
+  "name" : "test_login[登录成功-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246810-OK]",
+  "time" : {
+    "start" : 1613283721903,
+    "stop" : 1613283721988,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "314cc648fb9237b4",
+  "name" : "test_channels[http://api-toutiao-web.itheima.net/mp/v1_0/channels-headers0-OK]",
+  "time" : {
+    "start" : 1613283722153,
+    "stop" : 1613283722230,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c77d0836c613dd6",
+  "name" : "test_login[验证码错误-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246811-Invalid code.]",
+  "time" : {
+    "start" : 1613283722076,
+    "stop" : 1613283722147,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

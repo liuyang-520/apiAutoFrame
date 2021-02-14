@@ -1,0 +1,118 @@
+{
+  "uid" : "31216dc49da109d7",
+  "name" : "test_login[登录成功-http://api-toutiao-web.itheima.net/mp/v1_0/authorizations-13911111111-246810-OK]",
+  "fullName" : "case.test_login.TestLogin#test_login",
+  "historyId" : "fc927bff1e0886ff8e99af42ba495354",
+  "time" : {
+    "start" : 1613283699208,
+    "stop" : 1613283699293,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "拿到login数据，进行登录，然后把token文件写入token.md文件",
+      "time" : {
+        "start" : 1613283699208,
+        "stop" : 1613283699292,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "case_name",
+        "value" : "'登录成功'"
+      }, {
+        "name" : "url",
+        "value" : "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'"
+      }, {
+        "name" : "mobile",
+        "value" : "'13911111111'"
+      }, {
+        "name" : "code",
+        "value" : "'246810'"
+      }, {
+        "name" : "expect_result",
+        "value" : "'OK'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-KIPRUA9R"
+  }, {
+    "name" : "thread",
+    "value" : "5928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_name",
+    "value" : "'登录成功'"
+  }, {
+    "name" : "code",
+    "value" : "'246810'"
+  }, {
+    "name" : "expect_result",
+    "value" : "'OK'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13911111111'"
+  }, {
+    "name" : "url",
+    "value" : "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "31216dc49da109d7.json",
+  "parameterValues" : [ "'登录成功'", "'246810'", "'OK'", "'13911111111'", "'http://api-toutiao-web.itheima.net/mp/v1_0/authorizations'" ]
+}

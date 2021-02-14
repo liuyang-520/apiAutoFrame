@@ -1,0 +1,6 @@
+{
+  "case_name":"用户渠道接口",
+  "url":"http://api-toutiao-web.itheima.net/mp/v1_0/channels",
+  "headers":{"Accept": "application/json"},
+  "expect_result":"OK"
+}

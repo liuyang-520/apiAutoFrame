@@ -20,4 +20,4 @@ def log(log_content):
 	logger.debug(log_content)
 
 # print(filepath('log', 'log.txt'))
-log('11111')
+

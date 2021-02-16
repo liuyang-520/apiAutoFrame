@@ -5,6 +5,6 @@
 import os
 
 def filepath(dirname=None, filename=None):
-	return os.path.dirname(os.path.dirname(__file__))+r"\{}".format(dirname)+r"\{}".format(filename)
+	return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+r"\{}".format(dirname)+r"\{}".format(filename)
 
-# filepath('report', 'report.html')
+# print(filepath('data', 'login.json'))

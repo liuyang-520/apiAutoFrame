@@ -15,7 +15,6 @@
 import json
 from common.filepath import filepath
 
-
 class ReadJson(object):
 	def __init__(self, filename):
 		self.filename = filepath('data', filename)
